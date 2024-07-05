@@ -2,9 +2,8 @@ import React from "react";
 
 const MainContent = () => {
   return (
-    <main className="flex flex-col items-center mt-8 md:mt-16 px-4">
+    <main className="flex flex-col items-center mt-8  px-4">
       {" "}
-      {/* Increased mt-10 to mt-32 */}
       <h1 className="text-3xl md:text-6xl font-bold mb-4 text-center">
         Stop getting ignored.
         <div className="block mt-2 md:mt-6">

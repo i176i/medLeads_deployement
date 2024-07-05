@@ -7,6 +7,7 @@ import { DoctorSwiper } from "./pages/DoctorSwiper.jsx";
 
 import { FooterCallToAction } from "./pages/FooterCTA.jsx";
 import CalendlySection from "./pages/CalendlySection.jsx";
+import Footer from "./Components/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <DoctorSwiper />
       <FooterCallToAction />
       <CalendlySection />
+      <Footer />
     </>
   );
 }
