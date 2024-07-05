@@ -8,7 +8,7 @@ const FooterCallToAction = () => {
           Ready to drive revenue growth?
         </h2>
         <p className="mt-2 text-lg md:text-xl leading-8 text-gray-300">
-          Find Med Leads opportunities by joining today.
+          Find Selling opportunities by joining today.
         </p>
         <div className="mt-10 flex justify-center">
           <form className="flex flex-col sm:flex-row gap-4 sm:gap-2 items-center">

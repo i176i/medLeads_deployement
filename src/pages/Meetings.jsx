@@ -5,12 +5,12 @@ function Meetings() {
   return (
     <div className="p-4 md:p-8 mt-20 md:mt-40">
       <div className="bg-gray-900 rounded-3xl ">
-        <div className="max-w-full mx-auto grid grid-cols-1  md:grid-cols-2">
+        <div className="max-w-full mx-auto ">
           <div className="flex flex-col justify-center px-4 py-12 sm:px-8 sm:py-16 lg:py-16 xl:px-16">
-            <div className="font-bold uppercase text-indigo-500 mb-4">
+            <div className="font-bold uppercase text-indigo-500 mb-8 text-center text-lg">
               How it works
             </div>
-            <h2 className="text-3xl font-bold text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 md:mb-16 text-center">
               Scheduled calls with qualified prospects
             </h2>
             <div className="space-y-6 text-base text-gray-300">
@@ -19,10 +19,10 @@ function Meetings() {
                   <span className="text-base">1</span>
                 </div>
                 <div className="ml-4">
-                  <span className="block font-semibold mb- text-white">
+                  <span className="block font-semibold text-base  md:text-xl mb-2  text-white">
                     Describe your buyer profile.
                   </span>
-                  <p className="ml-12">
+                  <p className="ml-8 mt-2">
                     Specify what types of people you would like an intro to.
                   </p>
                 </div>
@@ -32,10 +32,10 @@ function Meetings() {
                   <span className="text-base">2</span>
                 </div>
                 <div className="ml-4">
-                  <span className="block font-semibold mb- text-white">
+                  <span className="block font-semibold text-base  md:text-xl mb-2  text-white">
                   Accept Profiles.
                   </span>
-                  <p className="ml-12">
+                  <p className="ml-8 mt-2">
                   Accept buyer profile from delivered leads. 
                   </p>
                 </div>
@@ -45,17 +45,17 @@ function Meetings() {
                   <span className="text-base">3</span>
                 </div>
                 <div className="ml-4">
-                  <span className="block font-semibold mb- text-white">
+                  <span className="block font-semibold text-base  md:text-xl mb-2  text-white">
                     Close more deals.
                   </span>
-                  <p className="ml-12">
+                  <p className="ml-8 mt-2">
                   Keep an eye on your inbox for meet links. Respond to mails and watch more deals roll out. 
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center h-full w-full overflow-hidden">
+          {/* <div className="flex justify-center items-center h-full w-full overflow-hidden">
             <img
               alt="Product screenshot"
               loading="lazy"
@@ -66,7 +66,7 @@ function Meetings() {
               className="h-[full] bg-cover rounded-xl shadow-xl ring-1 ring-white/10"
               style={{ color: "transparent", background:"cover" }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="absolute left-4 top-1/2 transform -translate-y-1/2 -z-10">

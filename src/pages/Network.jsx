@@ -34,7 +34,7 @@ function Network() {
           imageUrl={doctor_network_4}
           primaryText={"Secure"}
           secondaryText={
-            "Stay connected with colleges,here is some extra text to test "
+            "All profiles on platform are vetted to build trust and credibility."
           }
         />
       </div>

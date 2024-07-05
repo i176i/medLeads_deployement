@@ -27,7 +27,7 @@ function DoctorInteractionCard({
           {showButton && (
             <div className="cta_buttons py-4">
               <button className="text-white min-w-32 py-2 px-4 rounded-md bg-blue-600 hover:bg-blue-700">
-                Download App
+                Launching App Soon 🚀
               </button>
             </div>
           )}
