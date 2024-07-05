@@ -16,14 +16,14 @@ const MainContent = () => {
         ideal prospects, close more deals.
       </p>
       <div className="flex items-center space-x-2 mb-8 mt-4 md:mt-12">
-        <input
+        {/* <input
           type="email"
           placeholder="Enter your work email"
           className="p-2 border border-gray-300 rounded-md shadow-sm"
-        />
-        <button className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 shadow-md">
+        /> */}
+        <a href="https://tally.so/r/w4kRjk" className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 shadow-md">
           Get Started
-        </button>
+        </a>
       </div>
       {/* <div className="mt-6 text-gray-500">
         BACKED BY

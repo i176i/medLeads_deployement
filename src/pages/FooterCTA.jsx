@@ -15,26 +15,25 @@ const FooterCallToAction = () => {
             <label className="sr-only" htmlFor="email">
               Email address
             </label>
-            <input
+            {/* <input
               type="email"
               className="text-slate-800 h-10 w-full sm:w-auto rounded-md border border-input px-3 py-2 text-sm bg-white placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
               placeholder="Enter your work email"
               required
               id="email"
-            />
-            <button
+            /> */}
+            <a
+              href="https://tally.so/r/w4kRjk"
               className="h-10 px-4 py-2 bg-indigo-600 text-sm font-medium text-primary-foreground rounded-md transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
               type="submit"
             >
               Get Started
-              
-            </button>
+            </a>
           </form>
         </div>
       </div>
     </div>
   );
 };
-
 
 export { FooterCallToAction };

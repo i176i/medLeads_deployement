@@ -56,10 +56,11 @@ function NumbersDisplay({
       <div className="text-5xl my-2 font-bold">
         {isNegative ? "-" : "+"}
         {startCount ? (
-          <CountUp end={value} duration={2} start={0} />
+          <CountUp end={value} duration={2} start={0}/>
         ) : (
           "0"
         )}
+        {"%"}
       </div>
       <div className="text-xl font-semibold my-1 primary_text text-slate-600">
         {primaryText}
