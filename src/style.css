@@ -1403,6 +1403,10 @@ html{
   scroll-behavior: smooth;
 }
 
+/* body {
+  @apply bg-gradient-to-r from-purple-200 via-slate-50 to-pink-100;
+} */
+
 body {
   margin: 0;
   padding: 0;
@@ -1714,6 +1718,10 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
