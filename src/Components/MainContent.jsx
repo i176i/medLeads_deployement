@@ -2,7 +2,7 @@ import React from "react";
 
 const MainContent = () => {
   return (
-    <main className="flex flex-col items-center mt-16 px-4">
+    <main className="flex flex-col items-center mt-8 md:mt-16 px-4">
       {" "}
       {/* Increased mt-10 to mt-32 */}
       <h1 className="text-3xl md:text-6xl font-bold mb-4 text-center">
@@ -12,11 +12,11 @@ const MainContent = () => {
           buyers.
         </div>
       </h1>
-      <p className="text-xl mb-8 text-center">
-        Find and buy warm intros to potential customers. You only pay if a
-        meeting is scheduled.
+      <p className="text-xl mb-8 text-center mt-2 md:mt-8">
+        Easiest way to connect with healthcare industry professionals. Meet
+        ideal prospects, close more deals.
       </p>
-      <div className="flex items-center space-x-2 mb-8">
+      <div className="flex items-center space-x-2 mb-8 mt-4 md:mt-12">
         <input
           type="email"
           placeholder="Enter your work email"

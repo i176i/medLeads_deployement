@@ -49,8 +49,8 @@ function Header() {
         </a>
       </li>
       <li className="inline sm:mr-6 text-lg ">
-        <a href="#whatWeDo" className="text-center" onClick={closeMenu}>
-          What we do
+        <a href="#contact" className="text-center" onClick={closeMenu}>
+          Book a Call
         </a>
       </li>
     </ul>
