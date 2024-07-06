@@ -7,7 +7,7 @@ const MainContent = () => {
       <h1 className="text-3xl md:text-6xl font-bold mb-4 text-center">
         Stop getting ignored.
         <div className="block mt-2 md:mt-6">
-          Get <span className="text-purple-600">introduced</span> to your
+          Get <span className="gradient-text ">introduced</span> to your
           buyers.
         </div>
       </h1>
@@ -21,7 +21,7 @@ const MainContent = () => {
           placeholder="Enter your work email"
           className="p-2 border border-gray-300 rounded-md shadow-sm"
         /> */}
-        <a href="https://tally.so/r/w4kRjk" className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 shadow-md">
+        <a href="https://tally.so/r/w4kRjk" className="bg-slate-900 text-white py-2 px-4 shadow-lg rounded-md ">
           Get Started
         </a>
       </div>

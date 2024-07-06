@@ -15,11 +15,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
-  /* font-family: "Roboto", sans-serif; */
-  font-family: "Montserrat", sans-serif;
-
-  
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 
@@ -64,3 +61,31 @@ body {
   height: 100%;
   object-fit: cover;
 } */
+
+
+/* -------------- Animations -------------- */
+@keyframes spanGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(270deg, #3800c6, #ff56aa,  #007cf0, #00a07d);
+  background-size: 300% 300%;
+  animation: spanGradient 8s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

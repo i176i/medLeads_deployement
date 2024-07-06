@@ -7,7 +7,7 @@ function Meetings() {
       <div className="bg-gray-900 rounded-3xl ">
         <div className="max-w-full mx-auto ">
           <div className="flex flex-col justify-center px-4 py-12 sm:px-8 sm:py-16 lg:py-16 xl:px-16">
-            <div className="font-bold uppercase text-indigo-500 mb-8 text-center text-lg">
+            <div className="font-bold uppercase text-blue-500 mb-8 text-center text-lg">
               How it works
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 md:mb-16 text-center">

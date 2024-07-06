@@ -7,7 +7,7 @@ function Landing() {
       <Header />
       <div className="mt-0 md:mt-10  flex flex-col justify-center">
         <CTA />
-        <div className="my-8 w-80 text-center mx-auto rounded-full border py-2 px-4 font-semibold bg-purple-100 text-purple-700">🚀 Boost sales close rates by 53%</div>
+        <div className="my-8 w-80 text-center mx-auto rounded-full border py-2 px-4 font-semibold bg-blue-100 text-blue-700">🚀 Boost sales close rates by 53%</div>
         <MainContent />
       </div>
     </>

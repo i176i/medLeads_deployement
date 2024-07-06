@@ -15,7 +15,7 @@ function CalendlySection() {
           <p className="text-sm md:text-lg text-center my-2">
             Making more than <span className="font-bold">$20k/mo</span> in revenue? Let's chat.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-48 m-auto mt-4 md:mt-10">
+          <button className="bg-slate-800 text-white font-bold py-2 px-4 rounded-full w-48 m-auto mt-4 md:mt-10">
             Get in Touch
           </button>
         </div>
